@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <title>Artikel</title>
+</head>
+<style>
+.footer{
+    min-height: 50px;
+    padding-top: 15px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    /* background-color: gray;
+    border: 1px solid gray; */
+}
+body{
+    background-color: #f1f2f6;
+    padding-top: 50px
+}
+.backTop {
+    margin: 0;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.18);
+    background-color:rgba(192,192,192,0.3);
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+}
+.backTop:hover {
+      cursor: pointer;
+    }
+
+.warna-bg{
+    
+    background: linear-gradient(to right, rgba(91,134,229, .92), rgba(54,209,220,.92)); /* unutk gradasi warna */
+}
+.jumbotron-bg{
+    background-size: cover;
+    background: url(img/bg.jpg);
+    background-size: 300px;
+}
+</style>
+<body>
+    
+<nav class="navbar fixed-top navbar-expand-lg navbar-transparent navbar-dark bg-dark" >
+    <div class="container">
+        <a class="navbar-brand" title="Dheo Apriansyah" href="../index.html">Dheo Apriansyah</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" title="Artikel" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" target="_blank" title="https://github.com/DheoAp" href="https://github.com/DheoAp">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" target="_blank" title="https://www.linkedin.com/in/dheo-apriansyah-b13100174" href="https://www.linkedin.com/in/dheo-apriansyah-b13100174">LinkedIn</a>
+                </li>
+            </ul>            
+        </div>
+    </div>
+</nav>
+
+<!-- Awal Jumbotron -->
+<section class="jumbotron-bg">
+    <div class="jumbotron warna-bg text-white">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang</h1>
+            <p class="lead">Website ini adalah tempat berkumpulnya artikel, tutorial dan lainnya. <b>Source code</b> ada di GitHub</p>            
+            <hr class="my-4">                        
+        </div>
+    </div>
+</section>
+<!-- Akhir Jumbotron -->
+
+<div class="section">
+<!-- Awal Content -->
+<div class="container">
+
+    <div class="row">
+    
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+        <!-- Blog Post -->
+        <div class="card mb-4">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+            <a href="post/post_id.html" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Start Bootstrap</a>
+            </div>
+        </div>
+    
+        <!-- Blog Post -->
+        <div class="card mb-4">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+            <a href="post/post_id.html" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Start Bootstrap</a>
+            </div>
+        </div>
+    
+        <!-- Blog Post -->
+        <div class="card mb-4">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+            <a href="post/post_id.html" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Start Bootstrap</a>
+            </div>
+        </div>
+    
+        <!-- Pagination -->
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center mb-4">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+    
+        </div>
+    
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+    
+        <!-- Categories Widget -->
+        <div class="card my-3">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">                              
+                  
+                  <p><a href="detail_artikel.html">Artikel</a></p>                               
+                  <p><a href="detail_artikel.html">Berita</a></p>                               
+                  <p><a href="detail_artikel.html">Perjalanan</a></p>                               
+                  <p><a href="detail_artikel.html">Tutorial</a></p>                               
+                </div>              
+              </div>
+            </div>
+        </div>
+    
+        <div class="card my-4">
+            <h5 class="card-header">Source Code</h5>
+            <div class="card-body">
+              <a target="_blank" href="https://github.com/DheoAp/portfolio-artikel">Github - Artikel</a>
+            </div>
+          </div>
+    
+        </div>
+    
+    </div>
+    <!-- /.row -->
+    
+    </div>
+    <!-- Akhir container -->
+</div>
+
+
+
+<div class="backTop"><i class="fa fa-angle-up"></i></div>
+
+
+<!-- Awal Footer -->
+<section class="footer pb-3 bg-dark text-light">
+    
+    <div class="h4 title text-center">Dheo Apriansyah</div>
+    <div class="text-center text-muted">
+        <p class="text-light">&copy; Dheo Apriansyah 2020</p>
+    </div>
+    <div class="container text-center">
+        <p>Temukan Saya</p>
+        <a href="https://github.com/DheoAp" target="_blank" rel="nofollow" title="source code Django" style="color: inherit;"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/dheo-apriansyah-b13100174" target="_blank" rel="nofollow" title="linkedin"  style="color: inherit;"><i class="fab fa-linkedin fa-2x"></i></a>
+        <i class="fab fa-youtube fa-2x"></i>
+    </div>
+</section>
+<!-- Akhir Footer -->
+
+<script src="bootstrap/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
